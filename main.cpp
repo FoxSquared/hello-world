@@ -1,9 +1,9 @@
-#include <iostream>
+#include <format>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+	cout << format("Hellow {}\n", "world!");
     return 0;
 }
